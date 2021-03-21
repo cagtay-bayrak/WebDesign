@@ -70,6 +70,7 @@
     <Content Include="css\site.css" />
     <Content Include="Form1.html" />
     <Content Include="form2.html" />
+    <Content Include="img\Atatürk_Kemal.jpg" />
     <Content Include="img\browserlogo.png" />
     <Content Include="js\site.js" />
     <Content Include="Web.config" />
