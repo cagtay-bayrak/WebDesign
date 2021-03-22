@@ -40,22 +40,34 @@
     <hr />
     <form id="frm3" name="Form2">
         <label>Kullanıcı Adınız</label>
-        <input type="text" id="txtusername" name="username"  autofocus required />
+        <input type="text" id="txtusername" name="username" autofocus required />
         <br />
         <label>Şifreniz</label>
         <input type="password" id="txtusernamepasw" name="passw" required />
         <br />
         <label>Telefon</label>
-        <input type="tel" id="txttel" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  placeholder="123-126-1234" required />
+        <input type="tel" id="txttel" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-126-1234" required />
         <br />
         <label>eposta</label>
-         <input type="email" id="txteposta" name="eposta"  placeholder="abc@abc.com" required />
+        <input type="email" id="txteposta" name="eposta" placeholder="abc@abc.com" required />
         <br />
         <label>web Site</label>
-         <input type="url" id="txtwebsite" name="website"  placeholder="www.abc.com.tr" required />
+        <input type="url" id="txtwebsite" name="website" placeholder="www.abc.com.tr" required />
         <br />
         <input type="submit" id="btnGonder3" name="Gonder" value="Gonder" />
     </form>
+    <hr />
+    <form id="frm4" name="Form2">
+        <label>İller</label>
+        <select name="iller" id="slciller" required>
+            <option value="İstanbul">İstanbul</option>
+            <option value="izmir">izmir</option>
+            <option value="ankara">ankara</option>
+        </select>
+        <br />
+        <input type="submit" id="btnGonder4" name="Gonder" value="Gonder" />
+    </form>
+
 
 </body>
 </html>
