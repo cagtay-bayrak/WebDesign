@@ -3,18 +3,48 @@
 <head>
     <meta charset="utf-8" />
     <title>Form Çalışmaları</title>
+    <link rel="icon" href="img/browserlogo.png" />
+    <link rel="stylesheet" href="css/site.css" />
 </head>
 <body>
     <form id="frm1" name="Form1">
         <label>Adınız</label>
         <input type="text" id="txtname" name="name" />
         <br />
-         <br />
-        <label>Adres</label>
-        <textarea id="txtadres" name="adres"  cols="20" rows="5"></textarea>
-       
         <br />
-        <input type="submit" id="btnGonder" name="Gonder" value="Gonder" />
+        <label>Adres</label>
+        <textarea id="txtadres" name="adres" cols="20" rows="5"></textarea>
+
+        <br />
+        <input type="submit" id="btnGonder1" name="Gonder" value="Gonder" />
     </form>
+
+    <hr />
+    <form id="frm2" name="Form2">
+        <pre>Cinsiyet</pre>
+       
+        <input type="radio" name="cinsiyet" id="Erkek" value="E" />Erkek
+        <br />        
+        <input type="radio" name="cinsiyet" id="Kadın" value="K" />Kadın
+
+         <pre>Medeni Durum</pre>
+        <input type="radio" name="mDurum" id="Evli" value="E" />Evli
+        <br />        
+        <input type="radio" name="mDurum" id="Bekar" value="B" />Bekar
+
+         <pre>Hobiler</pre>
+        <input type="checkbox" name="hobiler" id="spor" value="1" />spor
+        <br />        
+        <input type="checkbox" name="hobiler" id="Kitap" value="2" />Kitap 
+         <br />        
+        <input type="checkbox" name="hobiler" id="Gezi" value="3" />Gezi 
+          <br /> 
+          <input type="submit" id="btnGonder2" name="Gonder" value="Gonder" />
+
+
+    </form>
+    <hr />
+
+
 </body>
 </html>
