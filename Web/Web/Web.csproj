@@ -67,14 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FormSitePlain.html" />
     <Content Include="Gosel.XML" />
     <Content Include="gorsel.xslt" />
-    <Content Include="css\site.css" />
+    <Content Include="css\FormSitePlain.css" />
     <Content Include="Form1.html" />
     <Content Include="form2.html" />
     <Content Include="form3.html" />
     <Content Include="img\Atatürk_Kemal.jpg" />
     <Content Include="img\browserlogo.png" />
+    <Content Include="img\siteplan.png" />
     <Content Include="js\site.js" />
     <Content Include="Web.config" />
   </ItemGroup>

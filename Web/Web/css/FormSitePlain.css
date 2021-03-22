@@ -1,0 +1,75 @@
+﻿
+body {
+
+    font-size:20px;
+}
+
+#container {
+    width: 960px;
+    height: 700px;
+    background: #2B2A2A;
+    margin: 0 auto 0 auto;
+    padding-top: 10px;
+}
+
+header#banner {
+    width: 940px;
+    height: 100px;
+    background: #ff0000;
+    margin: 0 10px;
+}
+
+nav {
+    width: 150px;
+    height: 450px;
+    margin: 10px; /*10px boşluk bırak*/
+    background: #704DFD;
+    float: left; /*sola hizala*/
+}
+
+section {
+    width: 600px;
+    height: 450px;
+    margin: 10px;
+    background: #704DFD;
+    float: left; /*sola hizala*/
+    padding-top:10px;
+}
+
+aside{
+     width: 150px;
+    height: 450px;
+    margin: 10px; /*10px boşluk bırak*/
+    background: #704DFD;
+    float: left; /*sola hizala*/
+}
+
+footer#footerend {
+    width: 940px;
+    height: 80px;
+    margin: 10px; /* her taraftan 10 px bosluk*/
+    float: left;
+    background: #b6ff00;
+}
+
+header#makale {
+    width: 550px;
+    height: 50px;
+    margin: 0 auto; /* sayfaya ortala*/
+    background: #ff00dc;
+}
+
+article.makale {
+    width: 550px;
+    height: 50px;
+    margin: 10px; auto;
+    background: #ffffff;
+}
+
+footer#footermakaleSonu {
+    width: 550px;
+    height: 250px;
+    background: #ffd800;
+    margin: 10px;
+    auto;
+}
