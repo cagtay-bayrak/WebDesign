@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FormBackgImage.html" />
+    <Content Include="FormBackgImage1.html" />
     <Content Include="FormColor.html" />
     <Content Include="FormSitePlain.html" />
     <Content Include="Gosel.XML" />
@@ -78,6 +79,8 @@
     <Content Include="form3.html" />
     <Content Include="img\Atatürk_Kemal.jpg" />
     <Content Include="img\browserlogo.png" />
+    <Content Include="img\cagtay1.jpg" />
+    <Content Include="img\cagtay2.jpg" />
     <Content Include="img\genclik.jpg" />
     <Content Include="img\siteplan.png" />
     <Content Include="js\site.js" />
