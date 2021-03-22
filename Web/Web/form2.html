@@ -14,7 +14,6 @@
         <br />
         <label>Adres</label>
         <textarea id="txtadres" name="adres" cols="20" rows="5"></textarea>
-
         <br />
         <input type="submit" id="btnGonder1" name="Gonder" value="Gonder" />
     </form>
@@ -22,29 +21,41 @@
     <hr />
     <form id="frm2" name="Form2">
         <pre>Cinsiyet</pre>
-       
         <input type="radio" name="cinsiyet" id="Erkek" value="E" />Erkek
-        <br />        
+        <br />
         <input type="radio" name="cinsiyet" id="Kadın" value="K" />Kadın
-
          <pre>Medeni Durum</pre>
         <input type="radio" name="mDurum" id="Evli" value="E" />Evli
-        <br />        
+        <br />
         <input type="radio" name="mDurum" id="Bekar" value="B" />Bekar
-
          <pre>Hobiler</pre>
         <input type="checkbox" name="hobiler" id="spor" value="1" />spor
-        <br />        
+        <br />
         <input type="checkbox" name="hobiler" id="Kitap" value="2" />Kitap 
-         <br />        
+         <br />
         <input type="checkbox" name="hobiler" id="Gezi" value="3" />Gezi 
-          <br /> 
-          <input type="submit" id="btnGonder2" name="Gonder" value="Gonder" />
-
-
+          <br />
+        <input type="submit" id="btnGonder2" name="Gonder" value="Gonder" />
     </form>
     <hr />
-
+    <form id="frm3" name="Form2">
+        <label>Kullanıcı Adınız</label>
+        <input type="text" id="txtusername" name="username"  autofocus required />
+        <br />
+        <label>Şifreniz</label>
+        <input type="password" id="txtusernamepasw" name="passw" required />
+        <br />
+        <label>Telefon</label>
+        <input type="tel" id="txttel" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  placeholder="123-126-1234" required />
+        <br />
+        <label>eposta</label>
+         <input type="email" id="txteposta" name="eposta"  placeholder="abc@abc.com" required />
+        <br />
+        <label>web Site</label>
+         <input type="url" id="txtwebsite" name="website"  placeholder="www.abc.com.tr" required />
+        <br />
+        <input type="submit" id="btnGonder3" name="Gonder" value="Gonder" />
+    </form>
 
 </body>
 </html>
