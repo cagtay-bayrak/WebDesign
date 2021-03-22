@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FormBackgImage.html" />
     <Content Include="FormColor.html" />
     <Content Include="FormSitePlain.html" />
     <Content Include="Gosel.XML" />
@@ -77,6 +78,7 @@
     <Content Include="form3.html" />
     <Content Include="img\Atatürk_Kemal.jpg" />
     <Content Include="img\browserlogo.png" />
+    <Content Include="img\genclik.jpg" />
     <Content Include="img\siteplan.png" />
     <Content Include="js\site.js" />
     <Content Include="Web.config" />
