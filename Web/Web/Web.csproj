@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Gosel.XML" />
+    <Content Include="gorsel.xslt" />
     <Content Include="css\site.css" />
     <Content Include="Form1.html" />
     <Content Include="form2.html" />
