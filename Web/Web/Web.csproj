@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FormColor.html" />
     <Content Include="FormSitePlain.html" />
     <Content Include="Gosel.XML" />
     <Content Include="gorsel.xslt" />
