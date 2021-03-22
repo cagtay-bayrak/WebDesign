@@ -71,6 +71,7 @@
     <Content Include="FormBackgImage1.html" />
     <Content Include="FormColor.html" />
     <Content Include="Formfont.html" />
+    <Content Include="FormFont2.html" />
     <Content Include="FormSitePlain.html" />
     <Content Include="Gosel.XML" />
     <Content Include="gorsel.xslt" />
