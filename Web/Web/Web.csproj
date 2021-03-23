@@ -72,7 +72,7 @@
     <Content Include="cssSeciciler\3.JPG" />
     <Content Include="cssSeciciler\4.JPG" />
     <Content Include="cssSeciciler\cssSeciciler.JPG" />
-    <Content Include="css\site.css" />
+    <Content Include="css\DefaultSite.css" />
     <Content Include="FormBackgImage.html" />
     <Content Include="FormBackgImage1.html" />
     <Content Include="FormColor.html" />
@@ -89,7 +89,9 @@
     <Content Include="img\browserlogo.png" />
     <Content Include="img\cagtay1.jpg" />
     <Content Include="img\cagtay2.jpg" />
+    <Content Include="img\dag.jpg" />
     <Content Include="img\genclik.jpg" />
+    <Content Include="img\overlaygrey.jpg" />
     <Content Include="img\siteplan.png" />
     <Content Include="js\site.js" />
     <Content Include="site.html" />
