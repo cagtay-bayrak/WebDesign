@@ -104,7 +104,7 @@ header #bunner {
 }
 
 section .content {
-/*    border-style: double;*/
+    /*    border-style: double;*/
     width: 1000px;
     padding: 0 auto;
     padding: 50px 0; /*iç bosluk üst at 50 sağ sol 0*/
@@ -138,7 +138,7 @@ section .content {
 
 
 #secondpart .rightDiv {
-/*    border-style: double;*/
+    /*    border-style: double;*/
     width: 400px;
     float: right;
     padding-right: 50px;
@@ -179,24 +179,47 @@ section .content {
         margin: 48px 0;
     }
 
-
     #thirdPart .images {
-        width: 300px;
+        width: 500px;
         float: left;
-        background: #f6f6f6;
+        background: #fff;
         margin: 50px 20px;
         border: 1px solid #ccc;
-        box-shadow: 1px 1px 3px #ffd800;
+        box-shadow: 1px 12px 15px #ccc;
     }
 
+
     #thirdPart img {
-        width: 300px;
+        width: 500px;
         margin: 0;
-        background: #f6f6f6;
     }
 
     #thirdPart .thirdPartContent {
-        width: 1000px;
+        width: 1100px;
         margin: 0 auto;
-        background: #f6f6f6;
     }
+
+    #thirdPart ul {
+        list-style: none; /*ul tag basındakı kutucuk silinir*/
+    }
+
+        #thirdPart ul li {
+            display: inline-block;
+        }
+
+            #thirdPart ul li a {
+                text-decoration: none;
+                font-size: 20px;
+                font-weight:600;
+                display: block; /*button hali*/
+                padding:20px 50px;
+                background:#f32853;
+                color:white;
+                text-transform:uppercase;
+                letter-spacing:2px;
+
+            }
+            /*#thirdPart ul li içerisinden 2. elemanı seç rengni değiştir*/
+            #thirdPart ul li:nth-child(2) a{
+                background:#323037;
+            }

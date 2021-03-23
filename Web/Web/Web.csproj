@@ -86,14 +86,15 @@
     <Content Include="Form1.html" />
     <Content Include="form2.html" />
     <Content Include="form3.html" />
-    <Content Include="img\Atatürk_Kemal.jpg" />
     <Content Include="img\browserlogo.png" />
     <Content Include="img\cagtay1.jpg" />
     <Content Include="img\cagtay2.jpg" />
     <Content Include="css\img\dag.jpg" />
     <Content Include="img\genclik.jpg" />
+    <Content Include="img\kurucum.JPG" />
+    <Content Include="img\mustafakemal2.JPG" />
+    <Content Include="img\mustafakemalln.JPG" />
     <Content Include="img\siteplan.png" />
-    <Content Include="img\tükiye.png" />
     <Content Include="js\site.js" />
     <Content Include="site.html" />
     <Content Include="Web.config" />
