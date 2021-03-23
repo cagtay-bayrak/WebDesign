@@ -89,9 +89,9 @@
     <Content Include="img\browserlogo.png" />
     <Content Include="img\cagtay1.jpg" />
     <Content Include="img\cagtay2.jpg" />
-    <Content Include="img\dag.jpg" />
+    <Content Include="css\img\dag.jpg" />
     <Content Include="img\genclik.jpg" />
-    <Content Include="img\overlaygrey.jpg" />
+    <Content Include="css\img\overlaygrey.jpg" />
     <Content Include="img\siteplan.png" />
     <Content Include="js\site.js" />
     <Content Include="site.html" />
