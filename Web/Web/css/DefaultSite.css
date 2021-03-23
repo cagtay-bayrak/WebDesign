@@ -92,12 +92,14 @@ header #bunner {
     padding: 25px 35px; /*kutu içerisine getirmek 25 px alt üst 35 px sağ sol bosluk*/
     background: #d24242;
     border-radius: 5px; /*ovallik*/
+    transition: 0.2s;
 }
 
-
-/***********************************************************************************Burası 2. Bolum **********************************************************************************************************/
-
-#secondpart {
+    #bunner a:hover {
+        background: #ffd800;
+    }
+    /***********************************************************************************Burası 2. Bolum **********************************************************************************************************/
+    #secondpart {
     border-style: none;
     width: 1000px;
     margin: 0 auto; /*ortalan*/
@@ -224,7 +226,7 @@ section .content {
                 background: #323037;
             }
 
-/***********************************************************************************Burası 2. Bolum **********************************************************************************************************/
+/***********************************************************************************Burası 4. Bolum **********************************************************************************************************/
 
 #fourthPart {
     width: 100%;
@@ -303,4 +305,51 @@ section .content {
 
             #fourthPart .fourthPartDepartments:nth-child(2n) .fourthPartIages {
                 float:left;
+            }
+
+
+
+
+/***********************************************************************************Burası 4. Bolum **********************************************************************************************************/
+#fifthpart {
+    width: 100%;
+    height: 350px;
+    background-image: url(img/cinar.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}
+    #fifthpart .fifthpartContent {
+        position: absolute;
+        width: 100%;
+        top: -200%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
+        #fifthpart .fifthpartContent h2 {
+            color: #fff;
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        #fifthpart .fifthpartContent p {
+            color: #aaa;
+            font-size: 18px;
+            margin-bottom: 50px;
+        }
+
+        #fifthpart .fifthpartContent a {
+            font-size: 20px;
+            font-weight: 700;
+            display: inline-block;
+            padding: 20px 35px;
+            background: #f32853;
+            text-decoration: none;
+            color: #fff;
+            transition: 0.2s;
+        }
+
+            #fifthpart .fifthpartContent a:hover {
+                background: crimson;
             }
