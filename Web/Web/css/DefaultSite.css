@@ -1,13 +1,12 @@
 ﻿
-
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header.upside {
-    background-image: url(img/dag.jpg),url(img/overlaygrey.jpg);
+    background-image: url(img/dag.jpg);
+    opacity: 2.9;
     position: relative;
     background-size: cover;
     width: 100%;
@@ -15,3 +14,189 @@ header.upside {
     margin: 0;
     padding: 0;
 }
+
+
+header h1 {
+    position: relative;
+    font-size: 18px;
+    margin-left: 30px;
+    top: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+header strong {
+    font-weight: 700;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+header ul {
+    list-style: none;
+    position: relative;
+    float: right;
+    right: 20px;
+    top: 0;
+}
+
+header li {
+    display: block;
+    padding: 30px; /*aralarında iç bosluk*/
+    float: left; /*soldan hizala*/
+    word-spacing: 50px;
+}
+
+
+header ul li a {
+    font-size: 18px;
+    text-transform: uppercase; /*hepsi büyük harf*/
+    transition: .2s; /*yazı rengi değişince 2sn geçiş yap*/
+}
+
+
+    header ul li a:hover {
+        color: #ffd800;
+    }
+
+header #bunner {
+    width: 100%;
+    position: absolute; /*istediğin yere konumlandır*/
+    top: 40%;
+    text-align: center;
+}
+
+#bunner h2 {
+    font-size: 40px;
+    color: #ffd800;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#bunner p {
+    color: #ffd800;
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+#bunner a {
+    padding: 25px 35px; /*kutu içerisine getirmek 25 px alt üst 35 px sağ sol bosluk*/
+    background: #d24242;
+    border-radius: 5px; /*ovallik*/
+}
+
+
+/***********************************************************************************Burası 2. Bolum **********************************************************************************************************/
+#secondpart {
+    border-style: none;
+    width: 1000px;
+    margin: 0 auto; /*ortalan*/
+    padding: 50px 0; /*üst alt 50 px sağ sol 0 bosluk*/
+}
+
+section .content {
+/*    border-style: double;*/
+    width: 1000px;
+    padding: 0 auto;
+    padding: 50px 0; /*iç bosluk üst at 50 sağ sol 0*/
+}
+
+
+#secondpart .content .leftDiv {
+    /*border-style: dotted;*/
+    width: 400px;
+    float: left;
+    padding-left: 70px;
+}
+
+
+#secondpart .leftDiv p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+
+#secondpart h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
+
+#secondpart .rightDiv {
+/*    border-style: double;*/
+    width: 400px;
+    float: right;
+    padding-right: 50px;
+    margin-left: 40px;
+}
+
+    #secondpart .rightDiv p {
+        line-height: 20px; /*satırlar arası bosluk*/
+        margin-bottom: 20px; /*alt bosluk*/
+    }
+
+
+
+.clear {
+    clear: both;
+}
+
+
+
+/***********************************************************************************Burası 3. Bolum **********************************************************************************************************/
+#thirdPart {
+    /* border-style: double; çerçeve*/
+    width: 100%;
+    margin: 0 auto; /*ortalan*/
+    padding: 50px 0;
+    background: #f6f6f6;
+    text-align: center;
+}
+
+    #thirdPart h2 {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        color: #484848;
+    }
+
+    #thirdPart p {
+        margin: 48px 0;
+    }
+
+
+    #thirdPart .images {
+        width: 300px;
+        float: left;
+        background: #f6f6f6;
+        margin: 50px 20px;
+        border: 1px solid #ccc;
+        box-shadow: 1px 1px 3px #ffd800;
+    }
+
+    #thirdPart img {
+        width: 300px;
+        margin: 0;
+        background: #f6f6f6;
+    }
+
+    #thirdPart .thirdPartContent {
+        width: 1000px;
+        margin: 0 auto;
+        background: #f6f6f6;
+    }
