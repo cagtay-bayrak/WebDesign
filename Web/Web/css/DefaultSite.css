@@ -96,6 +96,7 @@ header #bunner {
 
 
 /***********************************************************************************Burası 2. Bolum **********************************************************************************************************/
+
 #secondpart {
     border-style: none;
     width: 1000px;
@@ -210,16 +211,96 @@ section .content {
             #thirdPart ul li a {
                 text-decoration: none;
                 font-size: 20px;
-                font-weight:600;
+                font-weight: 600;
                 display: block; /*button hali*/
-                padding:20px 50px;
-                background:#f32853;
-                color:white;
-                text-transform:uppercase;
-                letter-spacing:2px;
-
+                padding: 20px 50px;
+                background: #f32853;
+                color: white;
+                text-transform: uppercase;
+                letter-spacing: 2px;
             }
             /*#thirdPart ul li içerisinden 2. elemanı seç rengni değiştir*/
-            #thirdPart ul li:nth-child(2) a{
-                background:#323037;
+            #thirdPart ul li:nth-child(2) a {
+                background: #323037;
+            }
+
+/***********************************************************************************Burası 2. Bolum **********************************************************************************************************/
+
+#fourthPart {
+    width: 100%;
+    padding-top: 50px;
+}
+
+    #fourthPart h2 {
+        margin-left: 50px;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 30px;
+    }
+
+        #fourthPart h2 + p {
+            font-size: 18px;
+            color: #666;
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+
+
+
+    #fourthPart .fourthPartDepartments {
+        width: 500px;
+        float: left;
+        margin-bottom: 50px;
+        margin-right:-150px;
+        margin-left:200px;
+    }
+
+        #fourthPart .fourthPartDepartments .fourthPartIages {
+            float: right;
+            width: 130px;
+        }
+
+            #fourthPart .fourthPartDepartments .fourthPartIages img {
+                border: 5px solid #b0b0b0;
+                border-radius: 100%;
+                width: 130px;
+            }
+
+
+
+
+        #fourthPart .fourthPartDepartments .fourthPartArticle {
+            float: left;
+            width: 330px;
+            text-align: right;
+            padding: 10px;
+            line-height: 25px;
+        }
+
+        #fourthPart .fourthPartDepartments h3 {
+            text-align: right;
+            font-size: 18px;
+            color: #484848;
+            margin-bottom: 10px;
+        }
+
+        #fourthPart .fourthPartDepartments h3 + p {
+            font-size:14px;
+            color:#aaa;
+            margin-bottom:20px;
+        }
+
+        #fourthPart .fourthPartDepartments:nth-child(2n) .fourthPartArticle{
+            text-align:left;
+        }
+
+
+        #fourthPart .fourthPartDepartments:nth-child(2n) .fourthPartArticle h3 {
+            text-align: left;
+        }
+
+
+            #fourthPart .fourthPartDepartments:nth-child(2n) .fourthPartIages {
+                float:left;
             }
