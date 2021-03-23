@@ -74,6 +74,7 @@
     <Content Include="cssSeciciler\cssSeciciler.JPG" />
     <Content Include="css\DefaultSite.css" />
     <Content Include="css\img\overlaygrey.jpg" />
+    <Content Include="DonenResim.html" />
     <Content Include="FormBackgImage.html" />
     <Content Include="FormBackgImage1.html" />
     <Content Include="FormColor.html" />
@@ -110,6 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="responsive+site+tasarım.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
