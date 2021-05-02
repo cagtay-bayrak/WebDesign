@@ -1,0 +1,68 @@
+﻿body {
+    background: url(img/karlidag.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    width: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.7);
+    padding: 30px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.7);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    padding: 0;
+    color: aliceblue;
+    text-align: center;
+}
+
+.wrapper .inputbox {
+    position: relative;
+}
+
+    .wrapper .inputbox input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: aliceblue;
+        margin-bottom: 30px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .wrapper .inputbox label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        color: aliceblue;
+        pointer-events: none;
+        transition: .5s;
+    }
+
+    .wrapper .inputbox input:focus + label,
+    .wrapper .inputbox input:valid + label {
+        top: -18px;
+        left: 0;
+        color: aqua;
+        font-size: 12px;
+    }
+
+input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background: #4800ff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}

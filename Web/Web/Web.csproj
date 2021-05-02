@@ -73,7 +73,10 @@
     <Content Include="cssSeciciler\4.JPG" />
     <Content Include="cssSeciciler\cssSeciciler.JPG" />
     <Content Include="css\DefaultSite.css" />
+    <Content Include="css\img\FERAH.JPEG" />
+    <Content Include="css\img\karlidag.jpg" />
     <Content Include="css\img\overlaygrey.jpg" />
+    <Content Include="css\Login2.css" />
     <Content Include="DonenResim.html" />
     <Content Include="FormBackgImage.html" />
     <Content Include="FormBackgImage1.html" />
@@ -101,13 +104,77 @@
     <Content Include="img\mustafakemal2.JPG" />
     <Content Include="img\mustafakemalln.JPG" />
     <Content Include="img\siteplan.png" />
+    <Content Include="JavaScript.aspx" />
+    <Content Include="JavaScript1.aspx" />
     <Content Include="js\site.js" />
     <Content Include="login.html" />
+    <Content Include="Login2.aspx" />
+    <Content Include="NasilYazildiysaGoster.aspx" />
+    <Content Include="OnArkaKart.aspx" />
+    <Content Include="ResimFilter.aspx" />
+    <Content Include="Rotatex-y.aspx" />
+    <Content Include="scroll.aspx" />
     <Content Include="site.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JavaScript.aspx.cs">
+      <DependentUpon>JavaScript.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript.aspx.designer.cs">
+      <DependentUpon>JavaScript.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript1.aspx.cs">
+      <DependentUpon>JavaScript1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript1.aspx.designer.cs">
+      <DependentUpon>JavaScript1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login2.aspx.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login2.aspx.designer.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NasilYazildiysaGoster.aspx.cs">
+      <DependentUpon>NasilYazildiysaGoster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NasilYazildiysaGoster.aspx.designer.cs">
+      <DependentUpon>NasilYazildiysaGoster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OnArkaKart.aspx.cs">
+      <DependentUpon>OnArkaKart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnArkaKart.aspx.designer.cs">
+      <DependentUpon>OnArkaKart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResimFilter.aspx.cs">
+      <DependentUpon>ResimFilter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResimFilter.aspx.designer.cs">
+      <DependentUpon>ResimFilter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rotatex-y.aspx.cs">
+      <DependentUpon>Rotatex-y.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rotatex-y.aspx.designer.cs">
+      <DependentUpon>Rotatex-y.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="scroll.aspx.cs">
+      <DependentUpon>scroll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="scroll.aspx.designer.cs">
+      <DependentUpon>scroll.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
