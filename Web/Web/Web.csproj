@@ -106,6 +106,9 @@
     <Content Include="img\siteplan.png" />
     <Content Include="JavaScript.aspx" />
     <Content Include="JavaScript1.aspx" />
+    <Content Include="JavaScript2.aspx" />
+    <Content Include="JavaScript3.aspx" />
+    <Content Include="JavaScript4.aspx" />
     <Content Include="js\site.js" />
     <Content Include="login.html" />
     <Content Include="Login2.aspx" />
@@ -131,6 +134,27 @@
     </Compile>
     <Compile Include="JavaScript1.aspx.designer.cs">
       <DependentUpon>JavaScript1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript2.aspx.cs">
+      <DependentUpon>JavaScript2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript2.aspx.designer.cs">
+      <DependentUpon>JavaScript2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript3.aspx.cs">
+      <DependentUpon>JavaScript3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript3.aspx.designer.cs">
+      <DependentUpon>JavaScript3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript4.aspx.cs">
+      <DependentUpon>JavaScript4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript4.aspx.designer.cs">
+      <DependentUpon>JavaScript4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login2.aspx.cs">
       <DependentUpon>Login2.aspx</DependentUpon>
