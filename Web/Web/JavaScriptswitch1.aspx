@@ -14,24 +14,21 @@
         <script>
             var sayi1 = parseInt(prompt("1.sayi"));
             var sayi2 = parseInt(prompt("2.sayi"));
-            var islem = parseInt(prompt("işlem giriniz (-,+,*,/)"));
-            if (islem != "+" || islem != "-" || islem != "*" || islem != "/") {
-                alert("Yanlış işlem girişi")
-            }
-            else {
-                switch (islem) {
+            var islem = prompt("işlem giriniz (-,+,*,/)");
 
-                    case "+": sonuc = sayi1 + sayi2;
-                        break;
-                    case "-": sonuc = sayi1 - sayi2;
-                        break;
-                    case "*": sonuc = sayi1 * sayi2;
-                        break;
-                    case "/": sonuc = sayi1 / sayi2;
-                        break;
+            
+            switch (islem) {
+
+                case "+": sonuc = sayi1 + sayi2;
+                    break;
+                case "-": sonuc = sayi1 - sayi2;
+                    break;
+                case "*": sonuc = sayi1 * sayi2;
+                    break;
+                case "/": sonuc = sayi1 / sayi2;
+                    break;
                 }
-
-            }
+           
             document.write(sonuc);
         </script>
     </form>
