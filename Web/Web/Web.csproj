@@ -111,6 +111,11 @@
     <Content Include="JavaScript4.aspx" />
     <Content Include="JavaScript5IF.aspx" />
     <Content Include="JavaScript6IF.aspx" />
+    <Content Include="JavaScript7FOR.aspx" />
+    <Content Include="JavaScript7IF.aspx" />
+    <Content Include="JavaScriptCarpimTablosu.aspx" />
+    <Content Include="JavaScriptSayiOyunu.aspx" />
+    <Content Include="JavaScriptswitch1.aspx" />
     <Content Include="js\site.js" />
     <Content Include="login.html" />
     <Content Include="Login2.aspx" />
@@ -120,6 +125,7 @@
     <Content Include="Rotatex-y.aspx" />
     <Content Include="scroll.aspx" />
     <Content Include="site.html" />
+    <Content Include="JavaScriptswitch.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +178,41 @@
     <Compile Include="JavaScript6IF.aspx.designer.cs">
       <DependentUpon>JavaScript6IF.aspx</DependentUpon>
     </Compile>
+    <Compile Include="JavaScript7FOR.aspx.cs">
+      <DependentUpon>JavaScript7FOR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript7FOR.aspx.designer.cs">
+      <DependentUpon>JavaScript7FOR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript7IF.aspx.cs">
+      <DependentUpon>JavaScript7IF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript7IF.aspx.designer.cs">
+      <DependentUpon>JavaScript7IF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScriptCarpimTablosu.aspx.cs">
+      <DependentUpon>JavaScriptCarpimTablosu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScriptCarpimTablosu.aspx.designer.cs">
+      <DependentUpon>JavaScriptCarpimTablosu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScriptSayiOyunu.aspx.cs">
+      <DependentUpon>JavaScriptSayiOyunu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScriptSayiOyunu.aspx.designer.cs">
+      <DependentUpon>JavaScriptSayiOyunu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScriptswitch1.aspx.cs">
+      <DependentUpon>JavaScriptswitch1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScriptswitch1.aspx.designer.cs">
+      <DependentUpon>JavaScriptswitch1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login2.aspx.cs">
       <DependentUpon>Login2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -214,6 +255,13 @@
     </Compile>
     <Compile Include="scroll.aspx.designer.cs">
       <DependentUpon>scroll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScriptswitch.aspx.cs">
+      <DependentUpon>JavaScriptswitch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScriptswitch.aspx.designer.cs">
+      <DependentUpon>JavaScriptswitch.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
