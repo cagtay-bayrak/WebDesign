@@ -109,6 +109,8 @@
     <Content Include="JavaScript2.aspx" />
     <Content Include="JavaScript3.aspx" />
     <Content Include="JavaScript4.aspx" />
+    <Content Include="JavaScript5IF.aspx" />
+    <Content Include="JavaScript6IF.aspx" />
     <Content Include="js\site.js" />
     <Content Include="login.html" />
     <Content Include="Login2.aspx" />
@@ -155,6 +157,20 @@
     </Compile>
     <Compile Include="JavaScript4.aspx.designer.cs">
       <DependentUpon>JavaScript4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript5IF.aspx.cs">
+      <DependentUpon>JavaScript5IF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript5IF.aspx.designer.cs">
+      <DependentUpon>JavaScript5IF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript6IF.aspx.cs">
+      <DependentUpon>JavaScript6IF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript6IF.aspx.designer.cs">
+      <DependentUpon>JavaScript6IF.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login2.aspx.cs">
       <DependentUpon>Login2.aspx</DependentUpon>
