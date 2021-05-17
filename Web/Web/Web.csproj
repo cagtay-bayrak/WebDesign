@@ -117,6 +117,9 @@
     <Content Include="JavaScriptCarpimTablosu.aspx" />
     <Content Include="JavaScriptSayiOyunu.aspx" />
     <Content Include="JavaScriptswitch1.aspx" />
+    <Content Include="JQuery.aspx" />
+    <Content Include="JQuery2.aspx" />
+    <Content Include="js\jquery-3.6.0.min.js" />
     <Content Include="js\site.js" />
     <Content Include="login.html" />
     <Content Include="Login2.aspx" />
@@ -221,6 +224,20 @@
     <Compile Include="JavaScriptswitch1.aspx.designer.cs">
       <DependentUpon>JavaScriptswitch1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="JQuery.aspx.cs">
+      <DependentUpon>JQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQuery.aspx.designer.cs">
+      <DependentUpon>JQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQuery2.aspx.cs">
+      <DependentUpon>JQuery2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQuery2.aspx.designer.cs">
+      <DependentUpon>JQuery2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login2.aspx.cs">
       <DependentUpon>Login2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -282,7 +299,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Dersimg\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
