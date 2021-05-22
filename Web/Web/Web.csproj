@@ -118,6 +118,7 @@
     <Content Include="JavaScriptSayiOyunu.aspx" />
     <Content Include="JavaScriptswitch1.aspx" />
     <Content Include="JQuery.aspx" />
+    <Content Include="JQueryFormClick.aspx" />
     <Content Include="JQuerySeciciler.aspx" />
     <Content Include="js\jquery-3.6.0.min.js" />
     <Content Include="js\site.js" />
@@ -230,6 +231,13 @@
     </Compile>
     <Compile Include="JQuery.aspx.designer.cs">
       <DependentUpon>JQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQueryFormClick.aspx.cs">
+      <DependentUpon>JQueryFormClick.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQueryFormClick.aspx.designer.cs">
+      <DependentUpon>JQueryFormClick.aspx</DependentUpon>
     </Compile>
     <Compile Include="JQuerySeciciler.aspx.cs">
       <DependentUpon>JQuerySeciciler.aspx</DependentUpon>
