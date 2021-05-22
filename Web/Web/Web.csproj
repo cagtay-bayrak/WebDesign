@@ -78,7 +78,6 @@
     <Content Include="css\img\overlaygrey.jpg" />
     <Content Include="css\Login2.css" />
     <Content Include="diziler.aspx" />
-    <Content Include="DonenResim.html" />
     <Content Include="FormBackgImage.html" />
     <Content Include="FormBackgImage1.html" />
     <Content Include="FormColor.html" />
