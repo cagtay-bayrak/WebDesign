@@ -118,7 +118,7 @@
     <Content Include="JavaScriptSayiOyunu.aspx" />
     <Content Include="JavaScriptswitch1.aspx" />
     <Content Include="JQuery.aspx" />
-    <Content Include="JQuery2.aspx" />
+    <Content Include="JQuerySeciciler.aspx" />
     <Content Include="js\jquery-3.6.0.min.js" />
     <Content Include="js\site.js" />
     <Content Include="login.html" />
@@ -231,12 +231,12 @@
     <Compile Include="JQuery.aspx.designer.cs">
       <DependentUpon>JQuery.aspx</DependentUpon>
     </Compile>
-    <Compile Include="JQuery2.aspx.cs">
-      <DependentUpon>JQuery2.aspx</DependentUpon>
+    <Compile Include="JQuerySeciciler.aspx.cs">
+      <DependentUpon>JQuerySeciciler.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="JQuery2.aspx.designer.cs">
-      <DependentUpon>JQuery2.aspx</DependentUpon>
+    <Compile Include="JQuerySeciciler.aspx.designer.cs">
+      <DependentUpon>JQuerySeciciler.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login2.aspx.cs">
       <DependentUpon>Login2.aspx</DependentUpon>
