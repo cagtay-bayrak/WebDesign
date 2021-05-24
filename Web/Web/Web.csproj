@@ -117,6 +117,7 @@
     <Content Include="JavaScriptSayiOyunu.aspx" />
     <Content Include="JavaScriptswitch1.aspx" />
     <Content Include="JQuery.aspx" />
+    <Content Include="JQueryDom.aspx" />
     <Content Include="JQueryFormClick.aspx" />
     <Content Include="JQueryKeyboard.aspx" />
     <Content Include="JQuerySeciciler.aspx" />
@@ -231,6 +232,13 @@
     </Compile>
     <Compile Include="JQuery.aspx.designer.cs">
       <DependentUpon>JQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQueryDom.aspx.cs">
+      <DependentUpon>JQueryDom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQueryDom.aspx.designer.cs">
+      <DependentUpon>JQueryDom.aspx</DependentUpon>
     </Compile>
     <Compile Include="JQueryFormClick.aspx.cs">
       <DependentUpon>JQueryFormClick.aspx</DependentUpon>
