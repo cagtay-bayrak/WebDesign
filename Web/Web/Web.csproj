@@ -119,8 +119,11 @@
     <Content Include="JQuery.aspx" />
     <Content Include="JQueryDom.aspx" />
     <Content Include="JQueryFormClick.aspx" />
+    <Content Include="JQueryHideShow.aspx" />
     <Content Include="JQueryKeyboard.aspx" />
     <Content Include="JQuerySeciciler.aspx" />
+    <Content Include="JQueryToplamaIslemi.aspx" />
+    <Content Include="JQueryVeriOku.aspx" />
     <Content Include="js\jquery-3.6.0.min.js" />
     <Content Include="js\site.js" />
     <Content Include="login.html" />
@@ -247,6 +250,13 @@
     <Compile Include="JQueryFormClick.aspx.designer.cs">
       <DependentUpon>JQueryFormClick.aspx</DependentUpon>
     </Compile>
+    <Compile Include="JQueryHideShow.aspx.cs">
+      <DependentUpon>JQueryHideShow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQueryHideShow.aspx.designer.cs">
+      <DependentUpon>JQueryHideShow.aspx</DependentUpon>
+    </Compile>
     <Compile Include="JQueryKeyboard.aspx.cs">
       <DependentUpon>JQueryKeyboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -260,6 +270,20 @@
     </Compile>
     <Compile Include="JQuerySeciciler.aspx.designer.cs">
       <DependentUpon>JQuerySeciciler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQueryToplamaIslemi.aspx.cs">
+      <DependentUpon>JQueryToplamaIslemi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQueryToplamaIslemi.aspx.designer.cs">
+      <DependentUpon>JQueryToplamaIslemi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQueryVeriOku.aspx.cs">
+      <DependentUpon>JQueryVeriOku.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQueryVeriOku.aspx.designer.cs">
+      <DependentUpon>JQueryVeriOku.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login2.aspx.cs">
       <DependentUpon>Login2.aspx</DependentUpon>
