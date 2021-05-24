@@ -120,6 +120,7 @@
     <Content Include="JQueryDom.aspx" />
     <Content Include="JQueryFormClick.aspx" />
     <Content Include="JQueryHideShow.aspx" />
+    <Content Include="JQueryHideShow1.aspx" />
     <Content Include="JQueryKeyboard.aspx" />
     <Content Include="JQuerySeciciler.aspx" />
     <Content Include="JQueryToplamaIslemi.aspx" />
@@ -256,6 +257,13 @@
     </Compile>
     <Compile Include="JQueryHideShow.aspx.designer.cs">
       <DependentUpon>JQueryHideShow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQueryHideShow1.aspx.cs">
+      <DependentUpon>JQueryHideShow1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQueryHideShow1.aspx.designer.cs">
+      <DependentUpon>JQueryHideShow1.aspx</DependentUpon>
     </Compile>
     <Compile Include="JQueryKeyboard.aspx.cs">
       <DependentUpon>JQueryKeyboard.aspx</DependentUpon>
